@@ -1,10 +1,9 @@
 //
 //  Entities.swift
-//  Recast.AI Official iOS SDK
+//  SAP Conversational AI Official iOS SDK
 //
 //  Created by Pierre-Edouard LIEB on 24/03/2016.
 //
-//  pierre-edouard.lieb@recast.ai
 
 import Foundation
 import ObjectMapper
@@ -307,7 +306,7 @@ public class Duration : Mappable, CustomStringConvertible
 /**
  Struct Email
  
- Examples :	hello@recast.ai, hello+devs@recast.ai
+ Examples :	hello@example.com, hello+devs@example.com
  
  Key:
  - value: String, the downcased email
@@ -1085,7 +1084,7 @@ public class Temperature : Mappable, CustomStringConvertible
 /**
  Struct Url
  
- Examples :	https://recast.ai, localhost:9000, api.recast.ai/request
+ Examples :	https://cai.tools.sap, localhost:9000, api.cai.tools.sap/request
  
  Key:
  - value: String, the downcased entity extracted

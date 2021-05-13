@@ -10,7 +10,7 @@ import ObjectMapper
 /**
  The Conversation entity is a component of the Dialog response
  
- Return from the Recast Dialog API call
+ Return from the SAP Conversational AI Dialog API call
  */
 public class Conversation : Mappable
 {

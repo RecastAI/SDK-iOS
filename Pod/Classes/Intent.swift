@@ -12,7 +12,7 @@ import ObjectMapper
 /**
  Class Response
  
- Return from the Recast API call
+ Return from the SAP Conversational AI API call
  */
 public class Intent : Mappable, CustomStringConvertible
 {

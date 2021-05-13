@@ -11,7 +11,7 @@ import Alamofire
 
 open class ConverseResponse: Mappable {
     
-    static fileprivate let base_url : String = "https://api.recast.ai/v2/"
+    static fileprivate let base_url : String = "https://api.cai.tools.sap/v2/"
     static fileprivate let textConverse : String = base_url + "converse"
     
     public var uuid: String!

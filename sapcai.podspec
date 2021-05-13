@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint RecastAI.podspec' to ensure this is a
+# Be sure to run `pod lib lint sapcai.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-s.name             = "RecastAI"
+s.name             = "sapcai"
 s.version          = "4.0.0"
-s.summary          = "Recast.AI Official iOS SDK in Swift"
+s.summary          = "SAP Conversational AI Official iOS SDK in Swift"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,22 +17,22 @@ s.summary          = "Recast.AI Official iOS SDK in Swift"
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 s.description      = <<-DESC
-Recast.AI Official iOS SDK in Swift. Allows you to make request to your bots.
+SAP Conversational AI Official iOS SDK in Swift. Allows you to make request to your bots.
 DESC
 
-s.homepage         = "https://github.com/RecastAI"
+s.homepage         = "https://github.com/SAPConversationalAI"
 # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
 s.license          = 'MIT'
-s.author           = { "Pierre-Edouard Lieb" => "pierre-edouard.lieb@recast.ai" }
-s.source           = { :git => "https://github.com/RecastAI/SDK-ios.git", :tag => s.version.to_s }
-s.social_media_url = 'https://twitter.com/recastai'
+s.author           = "PSAP CAI team"
+s.source           = { :git => "https://github.com/SAPConversationalAI/SDK-ios.git", :tag => s.version.to_s }
+s.social_media_url = 'https://twitter.com/sapcai'
 
 s.platform     = :ios, '10.0'
 s.requires_arc = true
 
 s.source_files = 'Pod/Classes/**/*'
 #s.resource_bundles = {
-#'Recast.AI' => ['Pod/Assets/*.png']
+#'SAPConversationalAI' => ['Pod/Assets/*.png']
 #}
 
 # s.public_header_files = 'Pod/Classes/**/*.h'

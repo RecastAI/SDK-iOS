@@ -1,10 +1,9 @@
 //
 //  Response.swift
-//  Recast.AI Official iOS SDK
+//  SAP Conversational AI Official iOS SDK
 //
 //  Created by Pierre-Edouard LIEB on 24/03/2016.
 //
-//  pierre-edouard.lieb@recast.ai
 
 import Foundation
 import ObjectMapper
@@ -12,7 +11,7 @@ import ObjectMapper
 /**
  Class Response
  
-Return from the Recast API call
+Return from the SAP Conversational AI API call
  */
 public class Response : Mappable, CustomStringConvertible
 {
